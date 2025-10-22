@@ -1,0 +1,25 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+  background: var(--primary);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: background-color 0.3s, opacity 0.3s;
+
+  &:hover {
+    background: rgba(187, 134, 252, 0.9);
+  }
+
+  &:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+}

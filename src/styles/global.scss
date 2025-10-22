@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth !important;
+}
+
+:root {
+  --background: #1A1A1A; // Fundo escuro
+  --surface: #2D2D2D; // Superfícies (cards, inputs)
+  --primary: #BB86FC; // Cor primária (roxo claro)
+  --secondary: #03DAC6; // Cor secundária (ciano)
+  --error: #CF6679; // Cor de erro
+  --text-primary: #FFFFFF; // Texto principal
+  --text-secondary: #A0A0A0; // Texto secundário
+  --border: #444444; // Bordas
+}
+
+body {
+  background: var(--apricot);
+  color: var(--charade);
+  font-family: 'Arial', sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
+}

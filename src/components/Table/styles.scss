@@ -1,0 +1,27 @@
+.tableContainer {
+  width: 100%;
+  overflow-x: auto;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--surface);
+    color: var(--text-primary);
+
+    th, td {
+      padding: 12px;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+    }
+
+    th {
+      font-weight: 500;
+      background: var(--background);
+    }
+
+    tr:hover {
+      cursor: pointer;
+      background: var(--background);
+    }
+  }
+}
